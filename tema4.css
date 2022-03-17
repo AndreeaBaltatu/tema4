@@ -1,0 +1,77 @@
+header{background-color: #eeeeee;
+    padding: 50px 200px;
+    box-sizing:border-box;
+    display: inline-flexbox;
+
+
+}
+
+.contact{
+    float: inline-end;
+    font-size: 50px; 
+}
+.text2{
+    float: inline-end;
+    font-size:30px; 
+  color: gray
+}
+#message{
+    clear: both;
+  display: inline-block;
+  padding: 43px 20px;
+  box-sizing:border-box;
+  
+
+}
+input[type=text], {
+    padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+  
+}
+
+.label{
+  
+    background-color: #eeeeee;
+    padding: 12px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 35%
+}
+
+.column {
+  float: left;
+  width: 50%;
+  
+}
+.column2 {
+    float: left;
+  width: 10%;
+
+}
+.row2{
+    margin-left: 42%
+}
+
+#sendmsg{
+    margin-left: 95px;
+    margin-top: 10px;
+    background-color: rgb(124, 165, 255);
+    border-radius: 4px;
+    color: white;
+    padding: 10px 10px;
+}
+#name, #email, #subject, #message{
+    border-radius: 4px;
+    border-color: #ccc;
+    display: inline-block;
+}
+h2{
+    text-align: center;
+}
